@@ -1,11 +1,11 @@
 {
   "cmd": [
-  "sh '${packages}/AfterEffects/build.sh' $file_name && osascript '${packages}/AfterEffects/run.scpt' $file_name"
+  "sh '${packages}/After-Effects-Scripting-Sublime-Text-Package/build.sh' $file_name && osascript '${packages}/After-Effects-Scripting-Sublime-Text-Package/run.scpt' $file_name"
   ],
   "shell": true,
   "windows": 
   {
-    "cmd": ["cd ${packages}\\AfterEffects\\ && build.bat $file_name $file_path"],
+    "cmd": ["cd ${packages}\\After-Effects-Scripting-Sublime-Text-Package\\ && build.bat $file_name $file_path"],
     "encoding": "cp850"
   }
 }
